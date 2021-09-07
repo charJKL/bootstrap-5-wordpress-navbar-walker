@@ -1,5 +1,6 @@
 <?php
 namespace Noyeomhou;
+use \Walker_Nav_menu;
 
 // bootstrap 5 wp_nav_menu walker
 class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
