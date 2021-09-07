@@ -4,9 +4,6 @@
 	 "version": "1.0",
     "autoload":
 	 {
-			"psr-4":
-			{
-				"Noyeomhou\\bootstrap_5_wp_nav_menu_walker": "functions.php"
-			}
+		"psr-0": { "bootstrap_5_wp_nav_menu_walker": "functions.php" }
 	 }
 }
