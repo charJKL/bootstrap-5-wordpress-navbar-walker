@@ -2,5 +2,11 @@
     "name": "noyeomhou/bootstrap-5-wordpress-navbar-walker",
     "type": "library",
 	 "version": "1.0",
-    "require": {}
+    "autoload":
+	 {
+			"psr-4":
+			{
+				"Noyeomhou\\bootstrap_5_wp_nav_menu_walker": "functions.php"
+			}
+	 }
 }
